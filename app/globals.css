@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1a1b2e;
+  color: #e5e7eb;
+  font-family: sans-serif;
+}
