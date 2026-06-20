@@ -1,0 +1,101 @@
+.footer {
+  border-top: 0.5px solid #1F2421;
+  padding: 40px 24px 24px;
+  background: #0B0D0C;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 24px;
+  max-width: 1100px;
+  margin: 0 auto 32px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.logoIcon {
+  font-size: 18px;
+  color: #97C459;
+}
+
+.logoText {
+  font-family: monospace;
+  font-size: 14px;
+  font-weight: 500;
+  color: #F1EFE8;
+}
+
+.tagline {
+  font-size: 12px;
+  color: #5F5E5A;
+  line-height: 1.6;
+  max-width: 220px;
+}
+
+.colTitle {
+  font-family: monospace;
+  font-size: 11px;
+  color: #639922;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 12px;
+}
+
+.linkList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.link {
+  font-size: 13px;
+  color: #888780;
+  cursor: pointer;
+  text-decoration: none;
+  width: fit-content;
+}
+
+.link:hover {
+  color: #97C459;
+}
+
+.bottom {
+  border-top: 0.5px solid #1F2421;
+  padding-top: 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.copyright {
+  font-family: monospace;
+  font-size: 11px;
+  color: #5F5E5A;
+}
+
+.bottomLinks {
+  display: flex;
+  gap: 16px;
+}
+
+.bottomLink {
+  font-family: monospace;
+  font-size: 11px;
+  color: #5F5E5A;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.bottomLink:hover {
+  color: #97C459;
+}

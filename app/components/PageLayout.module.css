@@ -1,0 +1,147 @@
+.page {
+  min-height: 100vh;
+  background: #0B0D0C;
+}
+
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 80px 24px 60px;
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: monospace;
+  font-size: 11px;
+  color: #639922;
+  background: rgba(151, 196, 89, 0.08);
+  border: 0.5px solid rgba(151, 196, 89, 0.25);
+  border-radius: 8px;
+  padding: 4px 10px;
+  margin-bottom: 20px;
+}
+
+.heading {
+  font-size: 36px;
+  font-weight: 500;
+  color: #F1EFE8;
+  margin: 0 0 12px;
+  letter-spacing: -0.5px;
+}
+
+.subheading {
+  font-family: monospace;
+  font-size: 13px;
+  color: #5F5E5A;
+  margin-bottom: 40px;
+}
+
+.lead {
+  font-size: 17px;
+  color: #C8C6BE;
+  line-height: 1.7;
+  margin-bottom: 16px;
+}
+
+.sectionTitle {
+  font-size: 19px;
+  font-weight: 500;
+  color: #F1EFE8;
+  margin: 40px 0 14px;
+}
+
+.paragraph {
+  font-size: 15px;
+  color: #888780;
+  line-height: 1.75;
+  margin-bottom: 16px;
+}
+
+.list {
+  margin: 0 0 16px;
+  padding-left: 20px;
+}
+
+.listItem {
+  font-size: 15px;
+  color: #888780;
+  line-height: 1.9;
+}
+
+.divider {
+  border: none;
+  border-top: 0.5px solid #1F2421;
+  margin: 40px 0;
+}
+
+.statsRow {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin: 32px 0 8px;
+}
+
+.statCard {
+  background: #121613;
+  border: 0.5px solid #1F2421;
+  border-radius: 12px;
+  padding: 18px 16px;
+  text-align: center;
+}
+
+.statNumber {
+  font-size: 24px;
+  font-weight: 600;
+  color: #97C459;
+  font-family: monospace;
+}
+
+.statLabel {
+  font-size: 11px;
+  color: #5F5E5A;
+  margin-top: 4px;
+  font-family: monospace;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.ctaBox {
+  background: #121613;
+  border: 0.5px solid #1F2421;
+  border-radius: 14px;
+  padding: 28px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.ctaTitle {
+  font-size: 18px;
+  font-weight: 500;
+  color: #F1EFE8;
+  margin: 0 0 8px;
+}
+
+.ctaText {
+  font-size: 14px;
+  color: #888780;
+  margin-bottom: 18px;
+}
+
+.ctaBtn {
+  display: inline-block;
+  background: #97C459;
+  color: #173404;
+  border: none;
+  font-weight: 500;
+  padding: 10px 22px;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.ctaBtn:hover {
+  background: #aed172;
+}

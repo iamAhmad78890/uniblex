@@ -1,0 +1,49 @@
+.section {
+  padding: 28px 24px 32px;
+}
+
+.heading {
+  color: #F1EFE8;
+  margin: 0 0 16px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 14px;
+}
+
+.card {
+  background: #121613;
+  border: 0.5px solid #1F2421;
+  border-radius: 12px;
+  padding: 14px;
+  cursor: pointer;
+  transition: border-color 0.2s ease;
+}
+
+.card:hover {
+  border-color: #639922;
+}
+
+.tag {
+  font-family: monospace;
+  font-size: 11px;
+  color: #97C459;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 14px;
+  color: #F1EFE8;
+  margin: 8px 0 6px;
+}
+
+.readTime {
+  font-family: monospace;
+  font-size: 11px;
+  color: #5F5E5A;
+  margin: 0;
+}

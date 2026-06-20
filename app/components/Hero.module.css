@@ -1,0 +1,81 @@
+.hero {
+  padding: 120px 24px 40px;
+  text-align: center;
+  border-bottom: 0.5px solid #1F2421;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: monospace;
+  font-size: 11px;
+  color: #639922;
+  background: rgba(151, 196, 89, 0.08);
+  border: 0.5px solid rgba(151, 196, 89, 0.25);
+  border-radius: 8px;
+  padding: 4px 10px;
+  margin-bottom: 20px;
+}
+
+.dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #97C459;
+}
+
+.title {
+  font-size: 34px;
+  font-weight: 500;
+  color: #F1EFE8;
+  margin: 0 0 12px;
+  letter-spacing: -0.5px;
+}
+
+.subtitle {
+  font-size: 15px;
+  color: #888780;
+  margin: 0 0 24px;
+  max-width: 440px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.primaryBtn {
+  background: #97C459;
+  color: #173404;
+  border: none;
+  font-weight: 500;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.primaryBtn:hover {
+  background: #aed172;
+}
+
+.secondaryBtn {
+  background: transparent;
+  color: #888780;
+  border: 0.5px solid #1F2421;
+  font-weight: 500;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.secondaryBtn:hover {
+  color: #F1EFE8;
+  border-color: #2a2f2c;
+}
