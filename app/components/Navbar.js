@@ -8,15 +8,16 @@ export default function Navbar() {
 
   return (
     <div className={styles.navbar}>
-      <Link href="/" className={styles.logo} style={{textDecoration: 'none'}}>
+      <Link href="/" className={styles.logo}>
         <span className={styles.logoIcon}>🎮</span>
-        <span className={styles.logoText}>gamezone.dev</span>
+      <span className={styles.logoText}>GameCraftHub</span>
       </Link>
       <div className={styles.menu}>
-        <Link href="/" className={`${styles.menuItem} ${pathname === '/' ? styles.active : ''}`}>games</Link>
-        <Link href="/blog" className={`${styles.menuItem} ${pathname === '/blog' ? styles.active : ''}`}>blog</Link>
-        <Link href="/about" className={`${styles.menuItem} ${pathname === '/about' ? styles.active : ''}`}>about</Link>
-        <Link href="/contact" className={`${styles.menuItem} ${pathname === '/contact' ? styles.active : ''}`}>contact</Link>
+        <Link href="/" className={`${styles.menuItem} ${pathname === '/' ? styles.active : ''}`}>Home</Link>
+        <Link href="/games" className={`${styles.menuItem} ${pathname === '/games' ? styles.active : ''}`}>Games</Link>
+        <Link href="/blog" className={`${styles.menuItem} ${pathname === '/blog' ? styles.active : ''}`}>Blog</Link>
+        <Link href="/about" className={`${styles.menuItem} ${pathname === '/about' ? styles.active : ''}`}>About</Link>
+        <Link href="/contact" className={`${styles.menuItem} ${pathname === '/contact' ? styles.active : ''}`}>Contact</Link>
       </div>
     </div>
   )

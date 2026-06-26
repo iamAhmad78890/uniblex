@@ -7,7 +7,7 @@
         <div className={styles.page}>
         <Navbar />
         <div className={styles.container}>
-            <h1 className={styles.heading}>About gamezone.dev</h1>
+            <h1 className={styles.heading}>About GameCraftHub</h1>
             <p className={styles.subheading}>// the story behind the games</p>
 
             <p className={styles.paragraph}>

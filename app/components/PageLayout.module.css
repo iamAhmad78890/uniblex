@@ -13,7 +13,7 @@
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  font-family: monospace;
+  
   font-size: 11px;
   color: #639922;
   background: rgba(151, 196, 89, 0.08);
@@ -32,7 +32,7 @@
 }
 
 .subheading {
-  font-family: monospace;
+  
   font-size: 13px;
   color: #5F5E5A;
   margin-bottom: 40px;
@@ -95,14 +95,14 @@
   font-size: 24px;
   font-weight: 600;
   color: #97C459;
-  font-family: monospace;
+  
 }
 
 .statLabel {
   font-size: 11px;
   color: #5F5E5A;
   margin-top: 4px;
-  font-family: monospace;
+  
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }

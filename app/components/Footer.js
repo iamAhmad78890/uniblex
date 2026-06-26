@@ -9,7 +9,7 @@ export default function Footer() {
         <div>
           <div className={styles.logo}>
             <span className={styles.logoIcon}>🎮</span>
-            <span className={styles.logoText}>gamezone.dev</span>
+           <span className={styles.logoText}>GameCraftHub</span>
           </div>
           <p className={styles.tagline}>
             Browser games built from scratch by Mohsin. WebGL experiments, playable instantly.
@@ -37,7 +37,7 @@ export default function Footer() {
       </div>
 
       <div className={styles.bottom}>
-        <span className={styles.copyright}>© 2026 gamezone.dev — All rights reserved</span>
+        <span className={styles.copyright}>© 2026 GameCraftHub — All rights reserved</span>
         <div className={styles.bottomLinks}>
           <Link href="/privacy-policy" className={styles.bottomLink}>Privacy</Link>
           <Link href="/terms-of-service" className={styles.bottomLink}>Terms</Link>

@@ -1,11 +1,5 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
-  background-color: #1a1b2e;
-  color: #e5e7eb;
-  font-family: sans-serif;
+  background-color: #0B0D0C;
+  color: #F1EFE8;
+  font-family: var(--font-nunito), 'Nunito Fallback', sans-serif;
 }

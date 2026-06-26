@@ -1,5 +1,5 @@
 .section {
-  padding: 28px 24px 32px;
+  padding: 0 24px 64px;
 }
 
 .heading {
@@ -11,7 +11,7 @@
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 14px;
 }
 
@@ -19,7 +19,7 @@
   background: #121613;
   border: 0.5px solid #1F2421;
   border-radius: 12px;
-  padding: 14px;
+  overflow: hidden;
   cursor: pointer;
   transition: border-color 0.2s ease;
 }
@@ -28,10 +28,41 @@
   border-color: #639922;
 }
 
+.thumbnail {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 16px;
+}
+
+.thumbnailEmoji {
+  font-size: 48px;
+  opacity: 0.9;
+}
+
+.thumbnailTag {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 10px;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: 6px;
+  border: 0.5px solid;
+  letter-spacing: 0.05em;
+}
+
+.content {
+  padding: 14px;
+}
+
 .tag {
-  font-family: monospace;
   font-size: 11px;
   color: #97C459;
+  font-weight: 600;
+  letter-spacing: 0.05em;
 }
 
 .title {
@@ -39,10 +70,10 @@
   font-size: 14px;
   color: #F1EFE8;
   margin: 8px 0 6px;
+  line-height: 1.5;
 }
 
 .readTime {
-  font-family: monospace;
   font-size: 11px;
   color: #5F5E5A;
   margin: 0;
