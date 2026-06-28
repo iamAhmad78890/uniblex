@@ -2,6 +2,7 @@
 import { motion } from 'framer-motion'
 import { useRouter } from 'next/navigation'
 import { useState } from 'react'
+import Link from 'next/link'
 import styles from './Hero.module.css'
 
 export default function Hero() {
@@ -42,7 +43,7 @@ export default function Hero() {
         WebGL experiments, dev breakdowns, and games — playable instantly, no installs.
       </p>
 
-      {/* <form onSubmit={handleSearch} className={styles.searchBox}>
+      <form onSubmit={handleSearch} className={styles.searchBox}>
         <input
           type="text"
           placeholder="Search games..."
@@ -50,17 +51,17 @@ export default function Hero() {
           onChange={(e) => setSearch(e.target.value)}
           className={styles.searchInput}
         />
-    <button type="submit" className={styles.searchIcon} aria-label="Search">
-  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-    <circle cx="11" cy="11" r="8"></circle>
-    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-  </svg>
-</button>
-      </form> */}
+        <button type="submit" className={styles.searchIcon} aria-label="Search">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+        </button>
+      </form>
 
       <div className={styles.buttonGroup}>
-        <button className={styles.primaryBtn}>Play latest game</button>
-        <button className={styles.secondaryBtn}>Read the blog</button>
+        <Link href="/games" className={styles.primaryBtn}>Play latest game</Link>
+        <Link href="/blog" className={styles.secondaryBtn}>Read the blog</Link>
       </div>
     </div>
   )
